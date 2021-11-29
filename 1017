@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int t,km;
+    float fuel;
+    scanf("%d %d",&t,&km);
+    fuel = (t*km)/ 12.0;
+    printf(" %.3f\n",fuel);
+
+
+    return 0;
+}
