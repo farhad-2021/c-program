@@ -1,0 +1,13 @@
+#include<stdio.h>
+#define PI 3.1416
+int main ()
+{
+    int  r = 5;
+    float area = (float)PI*r*r;
+
+    printf("area is : %0.2f\n",area);
+
+
+
+    return 0;
+}
